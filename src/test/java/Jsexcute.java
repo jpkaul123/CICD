@@ -28,7 +28,7 @@ public class Jsexcute {
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);
 		
-	List<WebElement> values = driver.findElements(By.cssSelector("tr:nth-child(2) > td:nth-child(3)"));
+	List<WebElement> values = driver.findElements(By.cssSelector("tr:nth-child(4) > td:nth-child(4)"));
 	
 	for (int i=0;i<=values.size();i++) {
 		
